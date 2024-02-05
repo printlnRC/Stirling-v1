@@ -1,0 +1,199 @@
+
+main { 
+    align-items: center;
+    background-image: url(image/baniere.jpg);    
+    position: fixed;
+    top: 0;  
+    width: 100%;
+    right: 0px;
+    height: 110px;
+
+    
+}
+h1{
+    text-align: center ;
+    top: 0;
+}
+.btn {
+    display: block;
+    margin: 150px auto 0;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(255, 208, 0);
+    padding: 20px 70px;
+    background: #6f00ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0 6px #5800cc;
+    font-family: 'Lobster', cursive;        
+}
+.btn:active {
+    box-shadow: 0 0 #5800cc;
+    top: 6px;
+}
+.signin{
+    left: 1280px;
+    position: relative;
+    top: -150px;    
+}
+.singup{
+    left: 1600px;
+    position: relative;
+    top: -150px;    
+}
+#searchbar{
+    margin-left: 15%;
+    padding: 20px 200px;
+    border-radius: 10px;
+    
+}
+.search{
+    position: relative;
+    top: -150px;
+    right: 200px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+.police{
+    font-family: 'Lobster', cursive;
+}
+
+.ligne{
+    display: none;
+    
+
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+nav li{
+    list-style-type: none;
+}
+nav li:hover .ligne{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    font-size: 44px;
+}
+.L{
+    padding: 20px ;
+    color: black;
+    padding-top: -100px;
+}
+.L1{
+    margin: 20px;
+    color: black;
+    padding-top: -100px;
+    text-decoration: ;
+}
+a{
+    text-decoration: none;
+}
+
+.menu1{
+    position: absolute;
+    left: 100px;
+    background-image: url(image/histoire.jpg);
+    background-size: 270px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 270px;  
+    border:5px solid #000000;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 10px;
+    text-decoration: none;
+}
+ 
+.menu2{
+    position: absolute;
+    left: 400px;
+    background-image: url(image/fonctionnement.jpg);
+    background-size: 270px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 270px; 
+    border:5px solid #000000;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 10px;   
+    padding: auto;
+}
+
+
+.menu3{
+    position: absolute;
+    right: 400PX;
+    background-image: url(image/utilisation.jpeg);
+   background-size: 270px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 270px; 
+    border:5px solid #000000;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 10px;
+    padding: auto;
+}
+
+.menu4{
+    position: absolute;
+    right: 100px;
+    background-image: url(image/stirling_logo.jpg);
+    background-size: 270px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 270px; 
+    border:5px solid #000000;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 10px;    
+}
+.text{
+    height: 1123px;
+    width: 794px;
+    margin: auto;
+    margin-top: auto;
+  
+}
+.slide{
+    float: left;
+}
+.slides{
+    width: 800px;
+    animation: glisse 15s infinite;
+
+}
+.slider{
+    width: 800px;
+    overflow: hidden;
+    margin: auto;
+}
+@keyframes glisse {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-800);
+    }
+    66%{
+        transform: translateX(-1600);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
